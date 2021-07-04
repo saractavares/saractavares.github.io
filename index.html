@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets//css/style.css">
+  <title>My Links</title>
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <picture class="profile__img"></picture>
+      <h3 class="profile__name">Sara C. Tavares</h3>
+      <span class="profile__job">Analista de Sistemas e Data Science lover</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="social-media">
+      <div class="social-media__items">
+      <h4 class="social-media__title">Minhas redes</h4>
+        <a href="https://github.com/saractavares" target="_blank" class="social-media__media social-media__media--github">
+          <object data="./assets/icons/icon-github.svg" type="image/svg+xml"></object>
+        </a>
+        <a href="https://www.instagram.com/dadososfatos/" target="_blank" class="social-media__media social-media__media--instagram">
+          <object data="./assets/icons/icon-instagram.svg" type="image/svg+xml"></object>
+        </a>
+        <a href="https://www.linkedin.com/in/saractavares/" target="_blank" class="social-media__media social-media__media--mal">
+          <object data="./assets/icons/icon-myanimelist.svg" type="image/svg+xml"></object>
+        </a>
+      </div>
+
+      <svg>
+        <filter id="gooey">
+          <feGaussianBlur in="SourceGrafic" stdDeviation="10"/>
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooey" />
+          <feBlend in="SourceGraphic" in2="gooey" />
+        </filter>
+      </svg>
+    </div>
+
+    <ul class="recommendations">
+      <h4 class="recommendations__title">Livros/Artigos</h4>
+      <img class="recommendations__icon" src="./assets/icons/icon-book.svg" alt="icone livro">
+
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://github.com/felipe-augusto/clean-code-javascript">javascript - Clean Code</a>
+      </li>
+
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://medium.com/trainingcenter/bem-em-5min-f5c80fd23439">CSS - BEM em 5min </a>
+      </li>
+
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://github.com/donnemartin/data-science-ipython-notebooks">Notebooks Ipython para Ciência de Dados</a>
+      </li>
+
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://github.com/0xnr/awesome-bigdata">Links Úteis para Big Data</a>
+      </li>
+    </ul>
+
+    <ul class="recommendations">
+      <h4 class="recommendations__title">Canais que recomendo</h4>
+      <img class="recommendations__icon" src="./assets/icons/icon-link.svg" alt="icone link">
+
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog">CSS: Online Tutorials</a>
+      </li>
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://www.youtube.com/channel/UC5fWvbBnaFAi2hJlHRmg5kw">JS: Programador a bordo</a>
+      </li>
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://www.youtube.com/user/bosontreinamentos">Linux: Boson Treinamentos</a>
+      </li>
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://www.youtube.com/channel/UC4jROkPjTvnXRkuo2GAwKXw">EstaTiDados</a>
+      </li>
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://www.youtube.com/c/Programa%C3%A7%C3%A3oDin%C3%A2mica/videos">Programação Dinâmica</a>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
