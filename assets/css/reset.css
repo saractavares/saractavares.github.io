@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* width: 100%; */
+  background-image: url('/assets/img/img-hero.svg');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: #ffe4c6;
+}
+
+/* .back { */
+  /* display: block; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  /* background-color: #ffe4c6; */
+
+  /* width: 100%; */
+  /* height: 100%; */
+  /* z-index: -1; */
+/* } */
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+object {
+  pointer-events: none;
+}
