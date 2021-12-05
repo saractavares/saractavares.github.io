@@ -1,62 +1,67 @@
-/* main {
-  background-color: #ffe4c6;
-  width: 100%;
-  border-radius: 90px 90px 0px 0px;
-  margin: var(--main-offset-y) auto auto auto;
-  max-width: 600px;
-  padding: 32px;
-  min-height: calc((100vh - var(--header-height)) - var(--main-offset-y));
-  z-index: 1;
-} */
-
-.parent {
-  display              : grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows   : 1fr;
-  grid-column-gap      : 7px;
-  grid-row-gap         : 0px;
-  margin-top: 2rem;
-}
-
 .div1 {
-  grid-area: 1 / 1 / 2 / 2;
-  /* display        : flex;
-  justify-content: right; */
-  width          : 250px;
-  height         : 250px;
+  display                 : none;
 }
 
 .div2 {
-  grid-area: 1 / 2 / 2 / 3;
-  /* display        : flex;
-  justify-content: center; */
+  grid-area      : 1 / 2 / 2 / 3;
+  display        : inline-block;
+  justify-content: center;
   width          : 250px;
   height         : 250px;
+
 }
 
 .div3 {
-  grid-area      : 1 / 3 / 2 / 4;
-  /* display        : flex;*/
-  justify-content: right;
-  width          : 250px;
-  height         : 250px;
-  margin-top: 14rem;
+  display           : none;
 }
 
-.divisao {
-  width: 100%;
-  padding: 2rem;
+@media only screen and (min-width: 993px) {
+  .parent {
+    display              : grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-template-rows   : 3fr;
+    grid-column-gap      : 2px;
+    grid-row-gap         : 0px;
+  }
+
+  .div1 {
+    grid-area      : 1 / 1 / 2 / 2;
+    display        : flex;
+    justify-content: right;
+    width          : 250px;
+    height         : 250px;
+  }
+
+  .div2 {
+    grid-area         : 1 / 2 / 2 / 3;
+    width             : 250px;
+    height            : 250px;
+  }
+
+  .div3 {
+    grid-area      : 1 / 3 / 2 / 4;
+    display        : flex;
+    justify-content: right;
+    align-items    : flex-end;
+    width          : 250px;
+    height         : 250px;
+    margin-top     : 14rem;
+  }
+
+  .divisao {
+    width  : 100%;
+    padding: 2rem;
+  }
+
+
 }
 
 .social-media {
-  display        : flex;
-  justify-content: center;
-  align-items    : center;
-  margin-top     : -25px;
-  margin-bottom  : 50px;
-  padding-bottom: 50px;
-  flex-direction : column;
-  z-index        : 0;
+  display           : flex;
+  justify-content   : center;
+  align-items       : center;
+  flex-direction    : column;
+  z-index           : 0;
 }
 
 .social-media__items {
@@ -104,13 +109,18 @@
   right: 10px;
 }
 
+.reco {
+  font-size : 1.6rem;
+  margin-top: 6rem;
+}
+
 svg {
   display: none;
 }
 
 .recommendations {
   margin-bottom: 20px;
-  margin-top: 6rem;
+  margin-top   : 2rem;
 }
 
 .recommendations__title {
@@ -152,8 +162,8 @@ svg {
 }
 
 .flores-dir {
-  display: flex;
+  display        : flex;
   justify-content: right;
-  align-items: flex-end;
-  width: 250px;
+  align-items    : flex-end;
+  width          : 250px;
 }
