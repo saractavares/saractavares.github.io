@@ -61,7 +61,7 @@ header {
 .profile__name,
 .profile__job {
   color: var(--white-900);
-  padding-left: 1.6rem;
+  /* padding-left: 1.6rem; */
 }
 
 .profile__name {
