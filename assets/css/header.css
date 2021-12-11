@@ -51,7 +51,7 @@ header {
 }
 
 .profile {
-  display        : inline-block;
+  display        : flex;
   justify-content: center;
   align-items    : center;
   flex-direction : column;
@@ -60,10 +60,6 @@ header {
 
 .profile__name,
 .profile__job {
-  display        : flex;
-  justify-content: center;
-  align-items    : center;
-  flex-direction : column;
   color: var(--white-900);
   /* padding-left: 1.6rem; */
 }
