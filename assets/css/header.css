@@ -51,7 +51,7 @@ header {
 }
 
 .profile {
-  display        : flexbox;
+  display        : flex;
   justify-content: center;
   align-items    : center;
   flex-direction : column;
@@ -74,5 +74,5 @@ header {
 
 .profile__job {
   font-weight: 400;
-  font-size  : 1rem;
+  font-size  : 18px;
 }
