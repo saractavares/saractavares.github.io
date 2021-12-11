@@ -60,6 +60,10 @@ header {
 
 .profile__name,
 .profile__job {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-direction : column;
   color: var(--white-900);
   /* padding-left: 1.6rem; */
 }
@@ -73,10 +77,6 @@ header {
 /* . */
 
 .profile__job {
-  display        : flex;
-  justify-content: center;
-  align-items    : center;
-  flex-direction : column;
   font-weight: 400;
   font-size  : 1rem;
 }
