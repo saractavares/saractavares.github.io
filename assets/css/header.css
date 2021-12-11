@@ -51,7 +51,7 @@ header {
 }
 
 .profile {
-  display        : flex;
+  display        : flexbox;
   justify-content: center;
   align-items    : center;
   flex-direction : column;
