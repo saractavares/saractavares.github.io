@@ -1,17 +1,17 @@
 @media only screen and (min-width: 693px) {
   header {
-    background-image : url('/assets/img/img-hero.svg');
-    background-repeat: no-repeat;
-    background-size  : cover;
-    width            : 100%;
+    background-image    : url('/assets/img/img-hero.svg');
+    background-repeat   : no-repeat;
+    background-size     : cover;
+    width               : 100%;
     /* height           : 100%; */
   }
 
   body {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    /* align-items: center; */
-    flex-direction: column;
+    /* align-items : center; */
+    flex-direction : column;
   }
 
   .parent-header {

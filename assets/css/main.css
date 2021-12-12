@@ -1,5 +1,5 @@
 .div1 {
-  display                 : none;
+  display: none;
 }
 
 .div2 {
@@ -12,7 +12,7 @@
 }
 
 .div3 {
-  display           : none;
+  display: none;
 }
 
 @media only screen and (min-width: 693px) {
@@ -30,17 +30,17 @@
     justify-content: center;
     width          : 250px;
     height         : 250px;
-    margin-top: 2rem;
+    margin-top     : 2rem;
   }
 
   .div2 {
-    grid-area: 1 / 2 / 2 / 3;
-    display: grid;
-    justify-items: center;
-    align-items: center;
+    grid-area     : 1 / 2 / 2 / 3;
+    display       : grid;
+    justify-items : center;
+    align-items   : center;
     flex-direction: column;
-    width: 250px;
-    height: 250px;
+    width         : 250px;
+    height        : 250px;
   }
 
   .div3 {
@@ -59,17 +59,17 @@
   }
 
   .reco {
-    font-size: 2rem;
+    font-size : 2rem;
     margin-top: 6rem;
   }
 }
 
 .social-media {
-  display           : flex;
-  justify-content   : center;
-  align-items       : center;
-  flex-direction    : column;
-  z-index           : 0;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-direction : column;
+  z-index        : 0;
 }
 
 .social-media__items {
