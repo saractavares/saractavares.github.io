@@ -46,7 +46,7 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 668px) {
   .link {
     font-size: 16px;
   }
