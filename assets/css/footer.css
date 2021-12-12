@@ -53,18 +53,16 @@
 
 @media only screen and (min-width: 693px) {
     .img-flores {
-        display              : grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows   : 1fr;
-        grid-column-gap      : 7px;
-        grid-row-gap         : 0px;
-        justify-content      : center;
-        align-items          : center;
-        flex-direction       : column;
-        margin-top           : 6rem;
+        display                 : grid;
+        grid-template-columns   : repeat(2, 1fr);
+        grid-template-rows      : 1fr;
+        grid-column-gap         : 7px;
+        /* grid-row-gap         : 0px; */
+        justify-content         : center;
+        align-items             : center;
+        flex-direction          : row;
+        margin-top              : 6rem;
     }
-
-
 
     .div-e {
         grid-area     : 1 / 1 / 2 / 2;
@@ -72,6 +70,7 @@
         justify-items : center;
         align-items   : center;
         flex-direction: column;
+        width         : 80%;
     }
 
     .div-m {
@@ -80,6 +79,7 @@
         justify-items : center;
         align-items   : center;
         flex-direction: column;
+        margin        : 6rem 0 0 0;
     }
 
     .div-d {
@@ -92,8 +92,8 @@
         padding-bottom : 2rem;
         display        : flex;
         justify-content: center;
-        align-items    : center;
-        flex-direction : column;
+        align-items    : self-start;
+        flex-direction : inherit;
         margin-top     : 6rem;
     }
 
