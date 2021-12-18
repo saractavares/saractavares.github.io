@@ -9,7 +9,7 @@
 
 .ism-slider {
   overflow                  : hidden;
-  position                  : relative;
+  position                  :relative;
   padding                   : 0 !important;
   -webkit-user-select       : none;
   -khtml-user-select        : none;
@@ -56,7 +56,7 @@
   height          : 100%;
   overflow        : hidden;
   position        : absolute;
-  display         : block;
+  display         : flex;
   top             : 0;
   bottom          : 0;
   margin          : 0 !important;
@@ -226,7 +226,7 @@ a.ism-caption:hover {
 
 p.ism-badge {
   margin     : 0 auto;
-  text-align : right;
+  text-align : center;
   font-size  : 10px;
   padding-top: 1px;
   color      : #ccc;
@@ -750,4 +750,10 @@ p.ism-badge a.ism-link:hover {
   border          : none;
   color           : #fff;
   background-color: rgba(0, 0, 0, 0.70);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

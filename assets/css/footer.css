@@ -21,8 +21,8 @@
 .icons {
     display        : flex;
     justify-content: right;
-    align-items    : flex-start;
-    padding        : 1rem 0 1rem 0;
+    /* align-items    : flex-start; */
+    /* padding        : 1rem 0 1rem 0; */
     flex-direction : column;
 }
 
@@ -31,7 +31,7 @@
     z-index: -1;
     width  : 100%;
 }
-
+/* 
 .img-flores {
     grid-template-columns: repeat(1, 2fr);
     grid-template-rows   : 2fr;
@@ -41,7 +41,7 @@
     justify-content      : center;
     align-items          : center;
     flex-direction       : column;
-}
+} */
 
 .title-slide {
     padding-bottom : 2rem;
@@ -52,29 +52,29 @@
 }
 
 @media only screen and (min-width: 693px) {
-    .img-flores {
-        display                 : grid;
-        grid-template-columns   : repeat(2, 1fr);
+     /* .img-flores { */
+        /* display                 : flexbox; */
+        /* grid-template-columns   : repeat(2, 1fr);
         grid-template-rows      : 1fr;
         grid-column-gap         : 7px;
-        /* grid-row-gap         : 0px; */
-        justify-content         : center;
-        align-items             : center;
-        flex-direction          : row;
-        margin-top              : 6rem;
-    }
+        grid-row-gap         : 0px; */
+        /* justify-content         : center;
+        align-items             : center; */
+        /* flex-direction          : column;
+        margin-top              : 6rem; */
+    /* } */
 
-    .div-e {
+    /* .div-e {
         grid-area     : 1 / 1 / 2 / 2;
         display       : flex;
         justify-items : center;
         align-items   : center;
         flex-direction: column;
         width         : 80%;
-    }
+    } */
 
     .div-m {
-        grid-area     : 1 / 2 / 2 / 3;
+        /* grid-area     : 1 / 2 / 2 / 3; */
         display       : flex;
         justify-items : center;
         align-items   : center;
@@ -82,11 +82,11 @@
         margin        : 6rem 0 0 0;
     }
 
-    .div-d {
+    /* .div-d {
         grid-area     : 1 / 3 / 2 / 4;
         margin-top    : 16rem;
         /* margin-left: 10rem; */
-    }
+    
 
     .title-slide {
         padding-bottom : 2rem;
@@ -121,14 +121,14 @@
     .redes {
         display        : flex;
         justify-content: center;
-        align-items    : flex-start;
+        align-items    : flex;
         flex-direction : column;
         margin         : 0 0 0 2rem;
         padding-top    : 2rem;
     }
 
-    .flores-dir {
+    /* .flores-dir {
         display        : flex;
         justify-content: space-around;
-    }
+    } */
 }
