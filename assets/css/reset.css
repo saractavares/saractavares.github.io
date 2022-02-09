@@ -9,7 +9,7 @@ body {
   justify-content : center;
   align-items     : center;
   flex-direction  : column;
-  background-color: #ffe4c6;
+  background-color: #281729;
 }
 
 @media only screen and (min-width: 693px) {
@@ -19,7 +19,7 @@ body {
     grid-template-rows   : repeat(3, 1fr);
     grid-column-gap      : 0px;
     grid-row-gap         : 0px;
-    background-color     : #ffe4c6;
+    background-color     : #281729;
   }
 
   h1 {

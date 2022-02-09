@@ -75,7 +75,7 @@
 .social-media__items {
   height          : 50px;
   width           : 200px;
-  background-color: var(--black);
+  background-color: rgb(99, 77, 109);
   margin-top      : -25px;
   border-radius   : 20px;
   position        : relative;
@@ -92,14 +92,14 @@
 }
 
 .social-media__title {
-  color: var(--white-100);
+  color: #fff;
 }
 
 .social-media__media {
   width           : 40px;
   height          : 40px;
   border-radius   : 50%;
-  background-color: var(--black);
+  background-color: rgb(99, 77, 109);
   z-index         : 1;
   display         : flex;
   align-items     : center;
@@ -120,6 +120,7 @@
 .reco {
   /* font-size : 1.6rem; */
   margin-top: 6rem;
+  color: #fff;
 }
 
 svg {
@@ -133,7 +134,7 @@ svg {
 
 .recommendations__title {
   font-size: 20px;
-  color    : var(--black);
+  color    : #fff;
   display  : inline-block;
 }
 
