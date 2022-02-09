@@ -1,6 +1,6 @@
 @media only screen and (min-width: 693px) {
   header {
-    background-image    : url('/assets/img/img-hero.svg');
+    /* background-image    : url('/assets/img/img-hero.svg'); */
     background-repeat   : no-repeat;
     background-size     : cover;
     width               : 100%;
@@ -57,7 +57,7 @@
 }
 
 header {
-  background-image    : url('/assets/img/img-hero.svg');
+  /* background-image    : url('/assets/img/img-hero.svg'); */
   background-repeat   : no-repeat;
   background-size     : cover;
   width               : 100%;
